@@ -8,7 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class GoogleFirefox {
 
 	public static void main(String[] args) {
-		//Initialization
+				
+				//Initialization of Driver Interface
 				WebDriver driver = new FirefoxDriver();
 				
 				//Launch URL
@@ -27,7 +28,7 @@ public class GoogleFirefox {
 				driver.navigate().refresh();
 				
 				//Close the browser
-				driver.quit();
+				driver.close();
 				
 	}
 
