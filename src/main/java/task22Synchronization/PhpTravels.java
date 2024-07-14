@@ -116,7 +116,7 @@ public class PhpTravels {
 		e.printStackTrace();
 	}
       
-     
-		
+     //Close the browser
+     driver.close();	
 	}
 }
